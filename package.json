@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenge",
+  "version": "1.0.0",
+  "description": "Telstra coding challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node server.js"
+  },
+  "author": "lakshyadev@live.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
